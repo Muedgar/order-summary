@@ -135,18 +135,3 @@ body {
     color: hsl(223, 47%, 23%);
 }
 
-@media (max-width: 600px) {
-    /*mobile css*/
-    body {
-        background: rgb(224,230,255) url('./images/pattern-background-mobile.svg') no-repeat;
-        background-size: cover;
-    }
-    .order-summary {
-        width: 300px;
-        min-height: 450px;
-        border-radius: 10px;
-        margin: 50px auto;
-        background-color: white;
-        box-shadow: 0px 4px 4px 0px #71e6ff1a, 0px 5px 5px 0px #71e6ff17, 0px 6px 6px 0px #71e6ff08;
-    }
-}
